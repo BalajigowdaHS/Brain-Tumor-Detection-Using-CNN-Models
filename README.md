@@ -1,5 +1,6 @@
 # Brain Tumor Detection Using CNN
-##Project Overview
+## Project Overview
+
 The advent of deep learning technology has significantly advanced the field of medical imaging, particularly in the detection of brain tumors. Convolutional Neural Networks (CNN), a powerful deep learning algorithm, offer the capability to analyze MRI scans with high precision and efficiency. By automating the detection process, CNN models reduce the time required for manual image interpretation while also minimizing the risk of human error, ultimately leading to better patient outcomes.
 
 This project aims to develop a CNN-based model using the PyTorch framework to accurately detect brain tumors from MRI images. By training on a dataset of labeled brain tumor images, the model will learn to identify specific patterns associated with tumor presence, making it a valuable tool to support healthcare professionals in the diagnosis process.
@@ -75,10 +76,15 @@ The confusion matrix provides a summary of the prediction results, showing the n
 
 
 True Positives (TP): Correctly identified brain tumors.
+
 True Negatives (TN): Correctly identified cases with no tumors.
+
 False Positives (FP): Incorrectly classified no tumor cases as tumors.
+
 False Negatives (FN): Incorrectly classified tumor cases as no tumors.
+
 This visualization helps identify where the model is making mistakes (if any) and provides insight into its overall performance.
+
 ![bf581a7f-a828-41d1-b41b-622e0eaf2824](https://github.com/user-attachments/assets/eb4f6722-d4b3-43fd-b7a8-e7e6861635d5)
 
 
@@ -90,8 +96,11 @@ The graph below demonstrates the model's accuracy over each epoch of training, s
 The plot shows:
 
 X-axis: Epochs (number of training iterations).
+
 Y-axis: Accuracy (performance on the validation dataset).
+
 The accuracy generally improves as the number of epochs increases, which indicates that the model is learning and becoming more proficient at classifying the input images.
+
 ![3e74ab04-92cd-4f3d-9202-1479483ed0d8](https://github.com/user-attachments/assets/fcd6f363-2dee-4df6-a2ec-294c5f6b5fff)
 
 
