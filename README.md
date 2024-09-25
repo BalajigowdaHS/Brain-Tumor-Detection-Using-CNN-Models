@@ -3,8 +3,11 @@ The advent of deep learning technology has significantly advanced the field of m
 
 This project aims to develop a CNN-based model using the PyTorch framework to accurately detect brain tumors from MRI images. By training on a dataset of labeled brain tumor images, the model will learn to identify specific patterns associated with tumor presence, making it a valuable tool to support healthcare professionals in the diagnosis process.
 
+
+![brain-tumor-fig1](https://github.com/user-attachments/assets/f36b4bbe-0044-4dce-b04d-95391011d95e)
+
 # Project Aim
-The aim of this project is to build a reliable and automated deep learning model that can detect brain tumors from MRI scans with high accuracy. This tool will assist medical professionals by providing faster, more accurate diagnosis, reducing human error, and improving overall efficiency in patient care.
+The aim of this project is to build a reliable and automated deep-learning model that can detect brain tumors from MRI scans with high accuracy. This tool will assist medical professionals by providing faster, more accurate diagnoses, reducing human error, and improving overall efficiency in patient care.
 
 # Project Objective
 The primary objectives of this initiative are to:
